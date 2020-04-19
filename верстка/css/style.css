@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+*,::after,::before{
+    box-sizing: border-box;
+}
+.container-header{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: gray;
+}
+.header-section{
+    background-color: #ffffff;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.25);
+    padding-top:24px ;
+    padding-bottom: 24px;
+    display: flex;
+    padding-left: 390px;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    color: #272727;
+    text-decoration: none;
+}
+.navbar{
+    padding-left: 307px;
+}
+.nav{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #272727;
+    padding-right: 20px;
+}
+.nav:visited{
+    color:#272727;
+}
+.nav:hover{
+    color:#ffbb00;
+}
+.promo-text{
+    text-align: center;
+    padding-top: 300px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 60px;
+}
+
+.container-promo{
+    background:#272727 url('../images/girl_travel_mountains_adventure-wallpaper-1920x1080.jpg')center no-repeat;
+    height: 850px;
+    width: 1920px;
+    margin: 0 auto;
+}
+.container-about{
+    width: 1920px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.25);
+}
+.about-section{
+    width: 1140px;
+    margin: 0 auto;
+}
+.photo-about{
+    position: absolute;
+    margin-top: 150px;
+    width: 555px;
+    height: 700px;
+    background:#272727 url('../images/adv.jpg')center no-repeat;
+}
+.text-about{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    width: 652px;
+    height: 550px;
+    margin: 0 auto;
+    background:#272727 url('../images/6-layers.png')center no-repeat;
+}
+.text{
+    margin-left: 488px;
+    padding-top: 224px;
+}
+.text-about-text{
+    padding-left: 81px;
+    margin-top: 0 auto;
+    padding-top: 94px;
+}
+.text-ab{
+    margin: 0 auto;
+    width: 486px;
+    height: 259px;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27.01px;
+}
+.footer{
+    width: 1920px;
+    height: 100px;
+    background-color: #272727;
+    margin: 0 auto;
+    display: flex;
+}
+.front{
+    text-decoration: none;
+    padding-top: 45px;
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    padding-left: 10px;
+}
